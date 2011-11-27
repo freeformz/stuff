@@ -22,33 +22,12 @@ fib3 := method(num,
   curr
 )
 
-fib(1) println
-fib(2) println
-fib(3) println
-fib(4) println
-fib(5) println
-fib(6) println
-fib(7) println
-fib(8) println
+1 to(8) foreach(val, fib(val) println)
 
 "" println
 
-fib2(1) println
-fib2(2) println
-fib2(3) println
-fib2(4) println
-fib2(5) println
-fib2(6) println
-fib2(7) println
-fib2(8) println
+1 to(8) foreach(val, fib2(val) println)
 
 "" println
 
-fib3(1) println
-fib3(2) println
-fib3(3) println
-fib3(4) println
-fib3(5) println
-fib3(6) println
-fib3(7) println
-fib3(8) println
+1 to(8) foreach(val, fib3(val) println)
